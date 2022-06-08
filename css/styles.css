@@ -57,14 +57,17 @@ h1 {
 
 /* Features */
 #features {
-    padding-top: 5%;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
 }
 
 .feature-icon {
-    padding-top: 5%;
     color: #ef8172;
-    font-size: 3.5rem;
-    padding-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 .feature-icon:hover {
