@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat";
+    font-weight: 500;
 }
 
 #title {
@@ -36,7 +37,7 @@ h3 {
 /* Navigation Bar */
 
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 0 0 8.5rem;
 }
 
 .navbar-brand {
@@ -51,7 +52,10 @@ h3 {
 .nav-link {
     font-family: "Montserrat";
     font-size: 1.2rem;
-    font-weight: 300;
+}
+
+.title-row {
+    padding-bottom: 6.5rem;
 }
 
 /* Download Buttons */
@@ -62,13 +66,17 @@ h3 {
 /* Title Image */
 .title-image {
     transform: rotate(25deg);
-    width: 60%;
+    width: 20%;
+    position: absolute;
 }
 
 
 /* Features */
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
@@ -87,13 +95,14 @@ h3 {
 
 .feature-title {
     font-family: "Montserrat";
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .feature-description {
     color: #8f8f8f;
     font-family: "Montserrat";
+    font-size: 1.2rem;
 }
 
 /* Testimonial Section */
