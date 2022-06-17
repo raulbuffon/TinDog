@@ -164,3 +164,29 @@ h3 {
         margin-left: 0;
     }
 }
+
+/* Call to Action */
+
+#cta {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    padding: 5% 25%;
+}
+
+/* Footer */
+
+#footer {
+    padding: 5% 20% 1%;
+    text-align: center;
+}
+
+.footer-icon {
+    padding: 10px;
+}
+
+.footer-copyright {
+    color: #8f8f8f;
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
